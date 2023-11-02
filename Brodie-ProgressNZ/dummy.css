@@ -1,0 +1,47 @@
+.heart {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    transform: rotate(-45deg);
+    margin: 50px;
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.heart::before {
+    top: -50px;
+    left: 0;
+}
+
+.heart::after {
+    top: 0;
+    left: 50px;
+}
+
+.text {
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    color: white;
+    font-size: 14px;
+	transform: rotate(45deg);
+}
+.selection1{
+/*	    position: absolute;*/
+/*    top: 35px;*/
+/*    left: 15px;*/
+    color: white;
+    font-size: 14px;
+	transform: rotate(45deg);
+	background-color: azure; 
+
+}
